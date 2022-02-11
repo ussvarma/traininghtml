@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="this is very important">
+    <meta name="author" content="ussvarma">
+    <meta name="description" content="this is i">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <details>
+        <summary>
+            shivaji maharaj
+        </summary>
+        <p>
+            Shivaji Bhonsale I (Marathi pronunciation: [ʃiʋaˑd͡ʒiˑ bʱoˑs(ə)leˑ]; c.19 February 1630 – 3 April 1680[5]), also referred to as Chhatrapati Shivaji, was an Indian ruler and a member of the Bhonsle Maratha 
+            <details>
+                <summary>Bhonsle Maratha</summary>
+                <p>
+                    The Bhonsle (or Bhonsale, Bhosale, Bhosle) are a prominent group within the Maratha clan system. Chhatrapati Shivaji, founder of the Maratha Empire.
+                </p>
+            </details>
+            clan. Shivaji carved out an enclave from the declining Adilshahi sultanate of Bijapur that formed the genesis of the Maratha Empire. In 1674, he was formally crowned the Chhatrapati of his realm at Raigad.[6]
+
+Over the course of his life, Shivaji engaged in both alliances and hostilities with the Mughal Empire, the Sultanate of Golkonda, Sultanate of Bijapur and the European colonial powers. Shivaji's military forces expanded the Maratha sphere of influence, capturing and building forts, and forming a Maratha navy. Shivaji established a competent and progressive civil rule with well-structured administrative organisations. He revived ancient Hindu political traditions, court conventions and promoted the usage of the Marathi and Sanskrit languages, replacing Persian in court and administration.[6][7]
+
+Shivaji's legacy was to vary by observer and time, but nearly two centuries after his death, he began to take on increased importance with the emergence of the Indian independence movement, as many Indian nationalists elevated him as a proto-nationalist and hero of the Hindus.[8][9]
+        </p>
+    </details>
+
+
+
+    <select name="mystates" id="mystates">
+        <option value="ker">kerala</option>
+        <option value="mah">maharastra</option>
+        <option value="and">andhra</option>
+        <option value="tel">telangana</option>
+        <option value="ass">assam</option>
+        
+    </select>
+    <br><br>
+    <datalist name="state" id="myindianstates">
+
+        <option value="ker">kerala</option>
+        <option value="mah">maharastra</option>
+        <option value="and">andhra</option>
+        <option value="tel">telangana</option>
+        <option value="ass">assam</option>
+    </datalist>
+
+    <datalist id="flavour">
+        <option value="vanilla"/>
+        <option value="straw"/>
+        <option value="butter"/>
+        <option value="karma"/>
+
+    </datalist>
+
+    
+    choose list: <input list="myindianstates" id="state"/>
+    choose list: <input list="flavour" id="flist"/>
+
+    <figure>
+        <img src="myimages/download.jpeg" alt="tajmahal">
+        <figcaption>
+            tajmahal king of places
+        </figcaption>
+        <img src="myimages/download.jpeg" alt="tajmahal">
+
+    </figure>
+    <p>king of places</p>
+
+    <form >
+        <label>Enter your Name:<input type="text" id="myname" onblur="upcase.value=(myname.value).toUpperCase()"></label>
+        <label >Result is:</label><output id="upcase"></output>
+    </form>
+    <hr>
+    <form >
+        <label >Enter first name: <input type="text" id="fname" onkeyup="upcase_fname.value=(fname.value).toUpperCase()"></label>
+        <label >Result is:</label><output id="upcase_fname"></output>
+        <label >Enter first name: <input type="text" id="lname" onkeyup="upcase_lname.value=(lname.value).toUpperCase()"></label>
+        <label >Result is:</label><output id="upcase_lname"></output>
+    </form>
+    <hr>
+    <form oninput="my_upcase_fname.value=(my_fname.value).toUpperCase();my_upcase_lname.value=(my_lname.value).toUpperCase()">
+        <label >Enter first name: <input type="text" id="my_fname" ></label>
+        <label >Result is:</label><output id="my_upcase_fname"></output>
+        <label >Enter first name: <input type="text" id="my_lname" ></label>
+        <label >Result is:</label><output id="my_upcase_lname"></output>
+    </form>
+
+    <form oninput="result.value=parseFloat(num1.value)+parseFloat(num2.value)">
+      <label >Enter the first number:<input type="number" id="num1" ></label>
+      <label >Enter the sec0nd number:<input type="number" id="num2" ></label>
+      <label >Result is:</label><output id="result"></output>
+    </form>
+
+    <label >Fuel Indicators</label>
+    <meter min="0" low="40" value="150" high="150" max="200" ></meter>
+    <meter min="0" low="40" value="50" high="150" max="200" optimum="165"></meter>
+    
+    </body>
+</html>

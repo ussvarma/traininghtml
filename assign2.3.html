@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="this is very important">
+    <meta name="author" content="ussvarma">
+    <meta name="description" content="this is i">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="this is very important">
+    <meta name="author" content="ussvarma">
+    <meta name="description" content="this is i">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<canvas id="canvas3" width="400" height="200"></canvas>
+
+<script>
+{
+  var canvas = document.getElementById("canvas3"); 
+  var context = canvas.getContext("2d");
+  context.lineWidth="4";
+  context.strokeStyle="green";
+  context.scale(1, 0.5);
+  context.beginPath();
+  context.arc(200, 200, 180, 0, 2 * Math.PI);
+  context.stroke();
+}
+</script>
+<br><br>
+<canvas id="canvas2" width="400" height="200"></canvas>
+<script>
+    {
+        var canvas = document.getElementById("canvas2"); 
+        var context = canvas.getContext("2d");
+        context.lineWidth="4";
+        context.strokeStyle="green";
+        context.scale(1, 0.5);
+        context.beginPath();
+        context.arc(150, 75, 70, 0, Math.PI, true);  
+    context.stroke();
+      }
+    </script>
+    <br><br>
+    <canvas id="myCanvas" width="400" height="200">
+        <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 10, 50);
+        </script>
+    </canvas>
+
+    </body>
+</html>
+    
